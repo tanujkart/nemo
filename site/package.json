@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Immersive underwater mission control interface concept.",
   "scripts": {
-    "dev": "python3 -m http.server 4173",
-    "start": "python3 -m http.server 4173"
+    "dev": "python3 -m http.server 4173 -d .",
+    "start": "python3 -m http.server 4173 -d ."
   }
 }
