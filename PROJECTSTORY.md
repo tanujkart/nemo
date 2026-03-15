@@ -9,7 +9,11 @@ NEMO is an IoT-enabled, fully autonomous submarine that collects environmental d
 ![NEMO Dashboard](https://raw.githubusercontent.com/tanujkart/nemo/refs/heads/master/dashboard.png)
 
 ## How we built it
-At the core of the system is an ESP-32 microcontroller that integrates a temperature sensor, a turbidity sensor, and a pH reader, allowing us to capture key indicators of water health. The submarine is powered by a motor housed in a 3D-printed, sealed enclosure.
+At the core of the system is an ESP-32 microcontroller that integrates a temperature sensor, a turbidity sensor, and a pH reader, allowing us to capture key indicators of water health. The breadboard was built with a modular design in mind, with power along one row, allowing us to easily add and remove components.
+
+![Breadboard](https://raw.githubusercontent.com/tanujkart/nemo/refs/heads/master/breadboard.png)
+
+The submarine is powered by a motor housed in a 3D-printed, sealed enclosure.
 
 On the software side, data is continuously collected from each sensor. Sensor readings get packaged into structured data, including location, time, and water quality measurements. All of the data collected by the submarine is streamed to a live monitoring dashboard through our ESP-32’s Wi-fi functionality. Here, researchers can see real-time measurements for key indicators in either 3D or 2D.
 
