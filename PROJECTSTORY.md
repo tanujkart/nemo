@@ -13,6 +13,8 @@ At the core of the system is an ESP-32 microcontroller that integrates a tempera
 
 ![Breadboard](https://raw.githubusercontent.com/tanujkart/nemo/refs/heads/master/breadboard.png)
 
+![Breadboard Diagram](https://raw.githubusercontent.com/tanujkart/nemo/refs/heads/master/diagram.png)
+
 The submarine is powered by a motor housed in a 3D-printed, sealed enclosure.
 
 On the software side, data is continuously collected from each sensor. Sensor readings get packaged into structured data, including location, time, and water quality measurements. All of the data collected by the submarine is streamed to a live monitoring dashboard through our ESP-32’s Wi-fi functionality. Here, researchers can see real-time measurements for key indicators in either 3D or 2D.
