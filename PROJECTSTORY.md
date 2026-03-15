@@ -23,6 +23,8 @@ The submarine is powered by a motor housed in a 3D-printed, fit-sealed enclosure
 
 On the submarine itself, we chose to place the turbidity sensor out front, the leash on the top, and the temperature sensor sticking out the bottom to maintain balance in it's upright position. This is so it can efficiently move through the water without tilting or turning unnecessarily.
 
+![NEMO Diagram](https://raw.githubusercontent.com/tanujkart/nemo/refs/heads/master/nemodiagram.png)
+
 On the software side, data is continuously collected from each sensor. Sensor readings get packaged into structured data, including location, time, and water quality measurements. All of the data collected by the submarine is streamed to a live monitoring dashboard through our ESP-32’s Wi-fi functionality. Here, researchers can see real-time measurements for key indicators in either 3D or 2D.
 
 ```
