@@ -256,38 +256,17 @@ html, body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-.about-heading {
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-  margin-bottom: 6px;
-}
-
-.about-text {
-  font-size: 10px;
-  line-height: 1.5;
-  color: var(--text);
-}
-
-.about-text strong { font-weight: 700; }
-
-.about-links {
-  margin-top: 8px;
-  display: flex;
-  gap: 10px;
-}
-
-.about-links a {
-  font-size: 9px;
+.about-link {
+  display: block;
+  font-size: 11px;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
-  letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
-.about-links a:hover { text-decoration: underline; }
+.about-link:hover { text-decoration: underline; }
 
 /* ─── Float Card ────────────────────────────────────────────────── */
 
