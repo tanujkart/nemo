@@ -7,8 +7,8 @@
 #define IN1 27
 #define IN2 33
 
-#define TURBIDITY_PIN 34
-#define PH_PIN 35
+#define TURBIDITY_PIN A0
+#define PH_PIN A1
 
 const char* ssid = "NCSSM-IoT";
 const char* password = "this_is_a_secret";
